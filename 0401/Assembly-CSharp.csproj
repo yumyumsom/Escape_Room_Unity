@@ -73,6 +73,7 @@
      <Compile Include="Assets\Script\Clock\setColor.cs" />
      <Compile Include="Assets\Script\Scene\Nextstage.cs" />
      <Compile Include="Assets\Script\Scene\SceneMover.cs" />
+     <Compile Include="Assets\Script\Scene\loby.cs" />
      <Compile Include="Assets\Script\inentory\Inventory.cs" />
      <Compile Include="Assets\Script\inentory\ItemPickup.cs" />
      <Compile Include="Assets\Script\inentory\Slot.cs" />

@@ -10,6 +10,7 @@ TagManager:
   - item
   - Key
   - Next
+  - loby
   layers:
   - Default
   - TransparentFX
