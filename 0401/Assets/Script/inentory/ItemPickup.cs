@@ -17,7 +17,10 @@ public class ItemPickup : MonoBehaviour
                 {
                     Instantiate(slotItem, inven.slots[i].slotObj.transform);
                     inven.slots[i].isEmpty = false;
-                    Destroy(this.gameObject);
+
+                    //  Debug.Log("ㅇl거");
+
+                    GameObject.Find(("key_key(Clone)")).SetActive(false);
                     break;
                 }
             }
