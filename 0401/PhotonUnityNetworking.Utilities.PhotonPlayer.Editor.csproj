@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{95C583A9-FC23-20C9-9095-BC533062EF5C}</ProjectGuid>
+    <ProjectGuid>{4B0B33B5-F1E9-6588-C15B-8F3CC398EE05}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</AssemblyName>
@@ -252,25 +252,25 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/woosw/OneDrive/바탕 화면/0326(2)/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/woosw/OneDrive/바탕 화면/capstone_unity/0401/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/woosw/OneDrive/바탕 화면/0326(2)/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/woosw/OneDrive/바탕 화면/capstone_unity/0401/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>C:/Users/woosw/OneDrive/바탕 화면/0326(2)/Library/PackageCache/com.unity.collab-proxy@1.14.12/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>C:/Users/woosw/OneDrive/바탕 화면/capstone_unity/0401/Library/PackageCache/com.unity.collab-proxy@1.14.12/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>C:/Users/woosw/OneDrive/바탕 화면/0326(2)/Library/PackageCache/com.unity.collab-proxy@1.14.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>C:/Users/woosw/OneDrive/바탕 화면/capstone_unity/0401/Library/PackageCache/com.unity.collab-proxy@1.14.12/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>C:/Users/woosw/OneDrive/바탕 화면/0326(2)/Library/PackageCache/com.unity.collab-proxy@1.14.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/woosw/OneDrive/바탕 화면/capstone_unity/0401/Library/PackageCache/com.unity.collab-proxy@1.14.12/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>C:/Users/woosw/OneDrive/바탕 화면/0326(2)/Library/PackageCache/com.unity.collab-proxy@1.14.12/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>C:/Users/woosw/OneDrive/바탕 화면/capstone_unity/0401/Library/PackageCache/com.unity.collab-proxy@1.14.12/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/woosw/OneDrive/바탕 화면/0326(2)/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/woosw/OneDrive/바탕 화면/capstone_unity/0401/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -630,33 +630,33 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/woosw/OneDrive/바탕 화면/0326(2)/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/woosw/OneDrive/바탕 화면/capstone_unity/0401/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/woosw/OneDrive/바탕 화면/0326(2)/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/woosw/OneDrive/바탕 화면/capstone_unity/0401/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/woosw/OneDrive/바탕 화면/0326(2)/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/woosw/OneDrive/바탕 화면/capstone_unity/0401/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/woosw/OneDrive/바탕 화면/0326(2)/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/woosw/OneDrive/바탕 화면/capstone_unity/0401/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{BA3A5903-F474-57C5-C872-8FE099E15422}</Project>
+      <Project>{EC0DCF24-90A0-EADD-23CC-B8B4811706EF}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{5C8A6177-A567-FA57-C6A7-A16DD5559A4F}</Project>
+      <Project>{9DEEA192-2637-6013-1CFD-7F629E5D8A5C}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{2F58073D-75ED-7BA0-A614-0558A72B4A5F}</Project>
+      <Project>{C1F576F1-5708-63A9-667A-1344F4F038B1}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{B2360F99-6D22-F475-0B6A-59F2D21EF34F}</Project>
+      <Project>{B8DB73DC-B59D-B8E2-8015-9385C6B1BD67}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
   </ItemGroup>

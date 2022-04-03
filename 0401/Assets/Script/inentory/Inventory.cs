@@ -6,7 +6,7 @@ public class Inventory : MonoBehaviour
     public List<SlotData> slots = new List<SlotData> ();
     private int maxSlot = 3;
     public GameObject slotPrefab;
-
+    private Image EmptyImg;
     private void Start()
     {
         GameObject slotPanel = GameObject.Find("Panel");
@@ -20,7 +20,14 @@ public class Inventory : MonoBehaviour
             slot.slotObj = go;
             slots.Add(slot);
         }
+
+        //if 아이템 사용하면 다시 빈화면으로 보여주게
+        if (Input.GetMouseButtonDown(0)) {
+            Slot.ItemUse();
+            return;
+
+        EmptyImg.sprite = item.itemImage;
     }
+        Img.transform.position = Input.mousePosition;
 
-
-}
+    }

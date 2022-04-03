@@ -52,7 +52,7 @@ public class setColor : MonoBehaviour
     {
         foreach (GameObject g in zeroBtnChild)
         {
-            g.gameObject.GetComponent<Renderer>().material.color = Color.white;
+            g.gameObject.GetComponent<Renderer>().material.color = Color.black;
         }
     }
 }
