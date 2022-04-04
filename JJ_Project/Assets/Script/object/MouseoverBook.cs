@@ -9,11 +9,10 @@ public class MouseoverBook : MonoBehaviour
 {
 
     public GameObject pass;               //책을 클릭했을때 나타날 inputfield를 매칭하기위한 게임오브젝트선언
-
     // Start is called before the first frame update
     void Start()                        
     {
-        hideIPF();                    //책을 클릭하기 전에는 Inputfieㅣd가 보이지 않게하는 hideIPF함수 호출
+        hideIPF();                    //책을 클릭하기 전에는 Inputfied가 보이지 않게하는 hideIPF함수 호출
 
     }
     void ShowIPF()
@@ -31,7 +30,8 @@ public class MouseoverBook : MonoBehaviour
     }
     void OnMouseDown()                  //오브젝트를 우클릭할때 실행 
     {
-        print(gameObject.name.ToString());  //클릭한 게임오브젝트의 이름을 출력
+        GameObject.FindWithTag("MyBookName").name = this.gameObject.name.ToString();
+        //print(GameObject.FindWithTag("MyBookName").name);  //클릭한 게임오브젝트의 이름을 출력
         ShowIPF();                          //Inputfield를 나타나게하는 함수 호출
     }
 
@@ -53,33 +53,19 @@ public class MouseoverBook : MonoBehaviour
         Vector3 uvec = new Vector3(0, 0, -0.1f);  //z방향으로 -0.1이동하는 백터 , 꺼냈던 책을 다시 꽂아넣는 효과
         transform.Translate(uvec);
     }
-
-   void check(InputField f) //InputField를 f로 선언
+    public void check(InputField f)
     {
-      //  print(gameObject.name.ToString());
-     //   print(f.text);
-        
-               if (gameObject.name == "answer" && f.text == "clock") //클릭한 책오브젝트명이 answer일때 &&InputField에 text를 검사하여 clock일때 실행
-                {
-
-                      print("지금 우리학교는 ");
-                      hideIPF(); // 입력받고 Ui창이 꺼짐
-            
-                }
-                else
-                {
-                    print("오답입니다.");
-                    hideIPF();
+        print(GameObject.FindWithTag("MyBookName").name);
+        print(f.text);
+        if (GameObject.FindWithTag("MyBookName").name == "answer" && f.text == "clock") //클릭한 책오브젝트명이 answer일때 &&InputField에 text를 검사하여 clock일때 실행
+        {
+            print("지금 우리학교는 ");
+            hideIPF(); // 입력받고 Ui창이 꺼짐
         }
-
-        
+        else
+        {
+            print("오답입니다.");
+            hideIPF();
+        }
     }
-    // public void GetButtonName()
-    //{ // 버튼 이름 가져오기
-    // string ButtonName = EventSystem.current.currentSelectedGameObject.name; 
-    //  Debug.Log(ButtonName);
-    //  }
-
-
-
 }

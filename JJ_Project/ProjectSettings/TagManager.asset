@@ -9,6 +9,7 @@ TagManager:
   - clock
   - item
   - Key
+  - MyBookName
   layers:
   - Default
   - TransparentFX
