@@ -9,7 +9,7 @@ public class SlotTurn : MonoBehaviour
 
     public int num;
 
-    private void Start()
+    /*private void Start()
     {
         inventory = GameObject.Find("Player").GetComponent<Inventory>();
         num = int.Parse(gameObject.name.Substring(gameObject.name.IndexOf("_") + 1));
@@ -20,5 +20,5 @@ public class SlotTurn : MonoBehaviour
         {
             inventory.slots[num].isEmpty = true;
         }
-    }
+    }*/
 }

@@ -9,6 +9,6 @@ public class SlotData : MonoBehaviour
 
     public bool isEmpty;
     public GameObject slotObj;
-
+    public Item item;
 
 }

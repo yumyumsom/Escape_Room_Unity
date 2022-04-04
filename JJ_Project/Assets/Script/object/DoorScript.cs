@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DoorScript : MonoBehaviour
 {
-   
+
     public bool open = false;
     public float doorOpenAngle = 150f;
     public float doorCloseAngle = 90f;
@@ -14,13 +14,11 @@ public class DoorScript : MonoBehaviour
     {
         if (open)
         {
-            print("OPEN");
             Quaternion targetRotation = Quaternion.Euler(0, doorOpenAngle, 0);
             transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRotation, smoot * Time.deltaTime);
         }
         else
         {
-           // print("CLOSE");
             Quaternion targetRotation = Quaternion.Euler(0, doorCloseAngle, 0);
             transform.localRotation = Quaternion.Slerp(transform.localRotation, targetRotation, smoot * Time.deltaTime);
         }
